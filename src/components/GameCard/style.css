@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap');
+
+
+.game-div{
+    background: #191825;
+    padding: 1rem !important;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.game-heading{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 128px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem !important;
+}
+
+.game-heading>p{
+    width: 533px;
+    height: 128px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 64px;
+    font-style: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.game-btn{
+    width: 97px;
+    height: 44px;
+    border-radius: 5px;
+    filter: drop-shadow(0px 4px 20px rgba(125,18,255,0.2 ));
+    background: #7d12ff;
+    position: relative;
+    top: 15%;
+}
+
+.game-div-cards{
+    /* border: 1px solid brown; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 3rem 0rem;
+}
+
+.game-card{
+    width: 300px;
+    height: 450px;
+    border-color: rgba(125,18,255,0.6 );
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.03 );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 1rem;
+    padding: 1rem !important;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+.game-card:hover{
+    transform: scale(1.1);
+}
+
+.game-img>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.game-content{
+    width: 100%;
+}
+
+.game-name{
+    width: 100%;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 32px;
+    font-style: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.game-description{
+    width: 100%;
+    opacity: 0.60;
+    font-family: "Poppins";
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 26px;
+    font-style: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.rating-div{
+    width: 100%;
+    height: 15%;
+    border-radius: 5px;
+    background: rgba(125,18,255,0.2 );
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.rating-div-left{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 0.5rem !important;
+}
+
+.star{
+    width: 18px;
+    height: 18px;
+    display: flex;
+}
+
+.dark{
+    width: 44px;
+    height: 18px;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 26px;
+    font-style: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.light{
+    width: 107px;
+    height: 18px;
+    opacity: 0.50;
+    font-family: "Poppins";
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 26px;
+    font-style: normal;
+    text-align: left;
+    color: #ffffff;
+}
+

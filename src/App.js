@@ -1,24 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import ContactUs from './components/ContactUs/ContactUs';
+import Footer from './components/FooterSection/Footer';
+import Game from './components/GameCard/Game';
+import GameHero from './components/GameHero/GameHero';
+import HeroSection from './components/Hero/HeroSection';
+import Nft from './components/NftCard/Nft';
+import PlayBackground from './components/PlayBackground/PlayBackground';
+import Snapit from './components/SnapitCard/Snapit';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <HeroSection />
+      <Snapit/>
+      <Game />
+      <GameHero />
+      <Nft />
+      <PlayBackground />
+      <ContactUs />
+      <Footer />
+    </>
   );
 }
 
