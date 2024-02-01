@@ -5,6 +5,7 @@
     background: #191825;
     padding: 5rem 5rem !important;
 }
+
 .game-hero{
     background-image: url(../../assets/Background.png);
     background-position: center;
@@ -17,6 +18,7 @@
     align-items: left;
     gap: 1rem;
 }
+
 .game-hero-content{
     width: 50%;
     height: auto;
@@ -48,6 +50,7 @@ font-style: normal;
 text-align: left;
 color: #ffffff;
 }
+
 .game-hero-decription{
     width: 50%;
     height: auto;
@@ -58,6 +61,7 @@ font-style: normal;
 text-align: left;
 color: #ffffff;
 }
+
 .game-rating-div{
     width: 30%;
     height: 74px;
@@ -75,10 +79,20 @@ color: #ffffff;
     gap: 1rem;
     padding-left: 0.5rem !important;
 }
+
 .game-review{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.slider{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 1rem !important;
 }
 
 .silder-active{
@@ -97,11 +111,4 @@ color: #ffffff;
     background: #ffffff
 }
 
-.slider{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    padding-top: 1rem !important;
-}
+

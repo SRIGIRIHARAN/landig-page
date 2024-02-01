@@ -43,13 +43,12 @@
 }
 
 .contactus-right{
-    /* border: 1px solid black; */
     width: 40%;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     position: relative;
-    bottom: 3rem;
+    bottom: 2.9rem;
 }
 
 .email-input{

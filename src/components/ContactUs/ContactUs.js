@@ -9,9 +9,9 @@ const ContactUs = () => {
                 <p>Stay in the Loop</p>
             </div>
             <div className='contactus-body'>
-                <p>Subscribe to our newsletter for exclusive updates, 
-                    game releases, and more! Enter your email address 
-                    to receive the latest gaming news and special offers.
+                <p>Subscribe to our newsletter for exclusive updates,game releases,<br /> 
+                    and more! Enter your email address to receive the latest gaming<br /> 
+                    news and special offers.
                 </p>
             </div>
         </div>

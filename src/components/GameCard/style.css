@@ -2,15 +2,16 @@
 
 
 .game-div{
+    border: 1px solid;
     background: #191825;
     padding: 1rem !important;
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 3rem 0;
 }
 
 .game-heading{
-    /* border: 1px solid red; */
+    border: 1px solid pink;
     width: 100%;
     height: 128px;
     display: flex;
@@ -42,13 +43,12 @@
 }
 
 .game-div-cards{
-    /* border: 1px solid brown; */
+    border: 1px solid black;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    justify-items: center;
-    align-items: center;
-    gap: 3rem 0rem;
+    /* grid-gap: 20px 0; */
+    padding: 0rem 5rem !important;
 }
 
 .game-card{
@@ -70,7 +70,7 @@
 }
 
 .game-card:hover{
-    transform: scale(1.1);
+    transform: scale(0.9);
 }
 
 .game-img>img{

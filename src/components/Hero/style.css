@@ -3,17 +3,16 @@
 
 .hero-section{
     background-image: url("../../assets/Background.png");
-    /* border: 1px solid red; */
     background-position: center;
     width: 100%;
     height: 800px;
 }
+
 .hero{
     display: flex;
 }
 
 .hero-left{
-    /* border: 1px solid brown; */
     width: 60%;
     background: linear-gradient(89deg,#191825 0.00%, rgba(25,24,37,0.86 ) 33.85%, rgba(25,24,37,0 ) 100.00%);
     display: flex;
@@ -34,6 +33,7 @@
     text-align: left;
     color: #ffffff;
 }
+
 .decription{
     width: 567.8px;
     height: 49px;
@@ -46,12 +46,14 @@
     text-align: left;
     color: #ffffff;
 }
+
 .buttons{
     width: 261.2px;
     height: 44px;
     display: flex;
     gap: 20px;
 }
+
 .play-btn{
     width: 117px;
     height: 44px;
@@ -59,6 +61,7 @@
     filter: drop-shadow(0px 4px 20px rgba(125,18,255,0.2 ));
     background: #7d12ff
 }
+
 .learn-btn{
     width: 132px;
     height: 44px;
@@ -73,8 +76,8 @@
 .learn-btn:hover{
     color: #7D12FF !important;
 }
+
 .hero-right{
-    /* border: 1px solid rgb(15, 47, 15); */
     width: 40%;
     display: flex;
     flex-direction: column;
@@ -82,6 +85,7 @@
     align-items: flex-end;
     gap: 40px;
 }
+
 .hero-right-img{
     position: relative;
     right: 40px;
@@ -93,7 +97,39 @@
     background: rgba(255,255,255,0.05 );
     padding: 3px !important;
 }
+
 .hero-right-img>img{
     width: 100px;
     height: 100px;
+}
+
+.hero-star{
+    width: fit-content;
+    position: absolute;
+    left: 40px;
+    bottom: 2px;    
+}
+
+.hero-rating{
+    width: fit-content;
+    position: absolute;
+    right: 10px;
+    bottom: 7px;
+}
+
+.hero-star>img{
+    width: 14px;
+    height: 14px;
+}
+
+.hero-rating>p{
+    width: fit-content;
+    height: 18px;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 26px;
+    font-style: normal;
+    text-align: left;
+    color: #ffffff;
 }

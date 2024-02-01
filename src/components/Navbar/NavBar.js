@@ -18,7 +18,7 @@ const NavBar = () => {
             <Nav.Link href="#" className='navlink'>E-sport</Nav.Link>
           </Nav>
           <form className='input-box'>
-            <input type='search' name='search' placeholder='Search games' className='search-input' />
+            <input type='search' name='search' placeholder='Search games' className='search-input-box' />
             <button className='search-btn'><i class="bi bi-search" /></button>
           </form>
      </Container>
