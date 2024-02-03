@@ -10,7 +10,7 @@ import Snapit from './components/SnapitCard/Snapit';
 
 function App() {
   return (
-    <>
+    <div className='page-div'>
       <HeroSection />
       <Snapit/>
       <Game />
@@ -19,7 +19,7 @@ function App() {
       <PlayBackground />
       <ContactUs />
       <Footer />
-    </>
+    </div>
   );
 }
 

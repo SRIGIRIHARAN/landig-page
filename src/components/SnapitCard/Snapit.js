@@ -9,7 +9,9 @@ import icon4 from '../../assets/icon-4.png'
 const Snapit = () => {
   return (
     <div className='snapit-div'>
-        <h1>Explore Snapit</h1>
+        <div className='snippet-head'>
+          <h1>Explore Snapit</h1>
+        </div>
         <div className='snapit-div-cards'>
         <SnapitCard
         icon = {icon1}

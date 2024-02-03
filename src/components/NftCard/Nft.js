@@ -9,7 +9,7 @@ import nft4 from '../../assets/nft-4.png'
 const Nft = () => {
   return (
     <div className='nft-div'>
-        <h1 className='nft-head'>RİSE YOUR NFT CHARACTERS</h1>
+        <h1 className='nft-head'>RİSE YOUR NFT <br/> CHARACTERS</h1>
         <div className='nft-div-cards'>
         <NftCard
         icon = {nft1}

@@ -2,27 +2,30 @@
 
 
 .game-div{
-    border: 1px solid;
+    /* border: 2px solid yellow; */
+    width: 100%;
+    height: 1150px;
     background: #191825;
-    padding: 1rem !important;
+    padding: 0 5rem !important;
     display: flex;
     flex-direction: column;
-    gap: 3rem 0;
+    /* gap: 3rem 0; */
 }
 
 .game-heading{
-    border: 1px solid pink;
+    /* border: 2px solid pink; */
     width: 100%;
-    height: 128px;
+    height: 15%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 3rem !important;
+    /* padding: 3rem !important; */
 }
 
 .game-heading>p{
-    width: 533px;
-    height: 128px;
+    /* border: 2px solid yellowgreen; */
+    width: 80%;
+    height: 100%;
     font-family: 'Red Hat Display', sans-serif;
     font-size: 56px;
     font-weight: bold;
@@ -33,22 +36,34 @@
 }
 
 .game-btn{
+    /* border: 2px solid pink; */
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.game-btn>button{
     width: 97px;
     height: 44px;
     border-radius: 5px;
     filter: drop-shadow(0px 4px 20px rgba(125,18,255,0.2 ));
     background: #7d12ff;
     position: relative;
-    top: 15%;
+    top: 45%;
 }
 
 .game-div-cards{
-    border: 1px solid black;
+    /* border: 2px solid black; */
     width: 100%;
+    height: 85%;
     display: grid;
+    justify-items: center;
+    align-items: center;
+    gap:  2rem;
     grid-template-columns: repeat(3,1fr);
-    /* grid-gap: 20px 0; */
-    padding: 0rem 5rem !important;
+    /* grid-gap: -5rem 1rem; */
+    /* padding: 0rem 4rem !important; */
 }
 
 .game-card{
@@ -62,7 +77,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: left;
     gap: 1rem;
     padding: 1rem !important;
     cursor: pointer;
@@ -70,7 +84,7 @@
 }
 
 .game-card:hover{
-    transform: scale(0.9);
+    transform: scale(1.1);
 }
 
 .game-img>img{

@@ -12,58 +12,62 @@ const Game = () => {
   return (
     <div className='game-div'>
         <div className='game-heading'>
-            <p>Discover the Most Popular Games</p>
-            <button className='game-btn'>See All</button>
+            <p>Discover the Most<br/> 
+                Popular Games
+            </p>
+            <div className='game-btn'>
+              <button>See All</button>
+            </div>
         </div>
         <div className='game-div-cards'>
-            <GameCard 
+          <GameCard 
             icon = {game1}
             gameName='POLYGON ARENA'
             gameDescription='Sci-Fi Strategy | PC | Mobile'
             rating = '4.8'
             review = '230'
             download = '1.1'
-            />
-            <GameCard 
+          />
+          <GameCard 
             icon = {game2}
             gameName='BATTLE BIT'
             gameDescription='Sci-Fi Strategy | PC | Mobile'
             rating = '4.9'
             review = '550'
             download = '4.3'
-            />
-            <GameCard 
+          />
+          <GameCard 
             icon = {game3}
             gameName='GANG BEAST'
             gameDescription='Sci-Fi Strategy | PC | Mobile'
             rating = '4.7'
             review = '600'
             download = '2'
-            />
-            <GameCard 
+          />
+          <GameCard 
             icon = {game4}
             gameName='HUMAN FALL FLAT'
             gameDescription='Sci-Fi Strategy | PC | Mobile'
             rating = '4.6'
             review = '800'
             download = '2.5'
-            />
-            <GameCard 
+          />
+          <GameCard 
             icon = {game5}
             gameName='BLANKOS BLOCK PARTY'
             gameDescription='Sci-Fi Strategy | PC | Mobile'
             rating = '4.6'
             review = '770'
             download = '5.1'
-            />
-            <GameCard 
+          />
+          <GameCard 
             icon = {game6}
             gameName='PARTY ANIMALS'
             gameDescription='Sci-Fi Strategy | PC | Mobile'
             rating = '4.5'
             review = '900'
             download = '1'
-            />
+          />
         </div>
     </div>
   )

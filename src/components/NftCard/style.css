@@ -2,20 +2,23 @@
 
 
 .nft-div{
+    /* border: 2px solid black; */
     width: 100%;
-    height: 620px;
+    height: 780px;
     background: #191825;
-    background: linear-gradient(180deg, #191825 0.00%, rgba(25,24,37,0.79 ) 34.38%, rgba(25,24,37,0 ) 100.00%);
+    background: linear-gradient(180deg, #191825 0.00%, rgba(25,24,37,0.79 ) 34.38%, rgba(25,24,37,0.31 ) 100.00%);
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    gap: 2rem;
-    padding: 3rem !important;
+    /* gap: 2rem; */
+    padding: 0 5rem !important;
 }
 
 .nft-head{
-    width: 50%;
-    height: 128px;
+    /* border: 2px solid red; */
+    width: 100%;
+    height: fit-content;
     font-family: 'Red Hat Display', sans-serif;
     font-size: 56px;
     font-weight: bold;
@@ -23,17 +26,23 @@
     font-style: normal;
     text-align: center;
     color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nft-div-cards{
-    border: 1px solid black;
+    /* border: 2px solid blue; */
     width: 100%;
+    height: 60%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
 }
 
 .nft-card{
-    width: 260px;
+    width: 100%;
     height: 370px;
     border-color: rgba(255,255,255,0.6 );
     border-width: 1px;
@@ -53,7 +62,15 @@
 }
 
 .nft-image{
+    /* border: 1px solid black; */
     position: relative;
+    width: 100%;
+    height: 50%;
+}
+
+.nft-image>img{
+    width: 100%;
+    height: 100%;
 }
 
 .like-icon{
@@ -67,22 +84,21 @@
     color: blueviolet !important;
 }
 
-.nft-image>img{
-    width: 100%;
-    height: auto;
-}
-
-
-
 .content-group{
-    width: 100%;
-    padding: 1rem !important;
-    margin-bottom: 2rem !important;
+    /* border: 1px solid black; */
+    width: 80%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding: 1rem !important;
+    margin-bottom: 2rem !important; */
 }
 
 .nft-card-content{
+    /* border: 1px solid purple; */
     width: 100%;
-    height: 31px;
+    height: fit-content;
     font-family: 'Red Hat Display', sans-serif;
     font-size: 23px;
     font-weight: bold;
@@ -91,8 +107,9 @@
 }
 
 .nft-card-description{
+    /* border: 1px solid purple; */
     width: 100%;
-    height: auto;
+    height: fit-content;
     font-family: "Poppins";
     font-size: 15px;
     font-weight: normal;

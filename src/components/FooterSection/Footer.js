@@ -2,6 +2,7 @@ import React from 'react'
 import "./style.css";
 import logo from '../../assets/logo.png'
 
+
 const Footer = () => {
   return (
     <div className='main-footer'>
@@ -16,7 +17,7 @@ const Footer = () => {
                 <a href='#'><i class="bi bi-linkedin" /></a>                
             </div>
             <div className='address'>
-                <p>© 2024 SNAPIT.<br />All rights reserved.</p>
+                <p>© 2024 SNAPIT.All rights <br /> reserved.</p>
             </div>
         </div>
         <div className='footer-right'>

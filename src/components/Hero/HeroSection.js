@@ -16,7 +16,8 @@ const HeroSection = () => {
                 <p>Get Ready To Play,Explore Conqeror</p>
             </div>
             <div className='decription'>
-                <p>Embark on your gaming journey of discovery and excitment right here, where the world of immersive gameplay</p>
+                <p>Embark on your gaming journey of discovery and excitment <br />
+                    right here, where the world of immersive gameplay</p>
             </div>
             <div className='buttons'>
                 <button className='play-btn'>Play Now</button>

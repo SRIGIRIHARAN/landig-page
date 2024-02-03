@@ -1,44 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap');
 
 .play-master-sec{
+    /* border: 2px solid blue; */
     width: 100%;
-    background: #191825;
-    background: linear-gradient(360deg, #191825 83.85%, rgba(25,24,37,0.25 ) 93.85%, rgba(25,24,37,0 ) 100.00%);
-    padding: 5rem 5rem !important;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #191825;    
+    background: linear-gradient(360deg,#191825 80.00%, rgba(25,24,37, 1) 90.85%, rgba(25,24,37,0.7 ) 100.00%);
+    padding: 0rem 5rem !important;
 }
 .play-hero{
+    border: 2px solid blue;
     background-image: url(../../assets/Background-2.png);
     background-position: center;
     background-size: 100% 100%;
+    background-repeat: no-repeat;
     width: 100%;
     height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    top: 1.5rem;
+    /* position: relative; */
+    /* top: 1.5rem; */
 }
 
 .play-overlay{
-    width: 50%;
+    /* border: 1px solid red; */
+    width: fit-content;
     height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: left;
     position: relative;
-    left: 20rem;
+    left: 22%;
     gap: 1rem;
 }
 
 .play-heading{
+    /* border: 1px solid black; */
     width: 100%;
-height: auto;
-font-family: 'Red Hat Display', sans-serif;
-font-size: 50px;
-font-weight: bold;
-line-height: 64px;
-font-style: normal;
-text-align: left;
-color: #ffffff;
+    height: fit-content;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 64px;
+    font-style: normal;
+    text-align: left;
+    color: #ffffff;
 }

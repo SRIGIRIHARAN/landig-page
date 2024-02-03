@@ -1,12 +1,14 @@
 import React from 'react'
 import "./style.css";
+import Divider from '../Divider/Divider';
 
 const ContactUs = () => {
   return (
-    <div className='contact-us'>
-        <div className='contactus-left'>
+    <div className='contact-masterdiv'>
+       <div className='contact-us'>
+       <div className='contactus-left'>
             <div className='contactus-head'>
-                <p>Stay in the Loop</p>
+                <p>Stay in the <br/> Loop</p>
             </div>
             <div className='contactus-body'>
                 <p>Subscribe to our newsletter for exclusive updates,game releases,<br /> 
@@ -18,9 +20,11 @@ const ContactUs = () => {
         <div className='contactus-right'>
             <form className='email-input'>
                 <input type='email' name='email' placeholder='Email Address' className='email-inputbox'></input>
-                <button className='email-btn'>Play Now</button>
+                <button className='playnow-btn'>Play Now</button>
             </form>
         </div>
+       </div>
+       <Divider />
     </div>
     
   )

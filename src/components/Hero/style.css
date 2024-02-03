@@ -2,29 +2,42 @@
 
 
 .hero-section{
+    /* border: 2px solid white; */
     background-image: url("../../assets/Background.png");
     background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     width: 100%;
     height: 800px;
 }
 
 .hero{
+    /* border: 2px solid blue; */
+    width: 100%;
+    height: 80%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem !important;
 }
 
 .hero-left{
+    /* border: 2px solid white; */
     width: 60%;
+    height: 100%;
     background: linear-gradient(89deg,#191825 0.00%, rgba(25,24,37,0.86 ) 33.85%, rgba(25,24,37,0 ) 100.00%);
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 40px;
     position: relative;
-    padding-left: 70px !important;
-    margin-top: 80px !important;
+    left: 3rem;
+    /* padding-left: 70px !important; */
+    /* margin-top: 80px !important; */
 }
 
 .content{
+    width: 100%;
     font-family: 'Red Hat Display', sans-serif;
     font-size: 90px;
     font-weight: bold;
@@ -35,7 +48,7 @@
 }
 
 .decription{
-    width: 567.8px;
+    width: 100%;
     height: 49px;
     opacity: 0.70;
     font-family: "Poppins";
@@ -48,7 +61,7 @@
 }
 
 .buttons{
-    width: 261.2px;
+    width: 100%;
     height: 44px;
     display: flex;
     gap: 20px;
@@ -78,17 +91,21 @@
 }
 
 .hero-right{
+    /* border: 2px solid white; */
     width: 40%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
+    padding: 0 3rem !important;
     gap: 40px;
 }
 
 .hero-right-img{
+    width: fit-content;
+    height: fit-content;
     position: relative;
-    right: 40px;
     border-color: rgba(255,255,255,0.6 );
     border-width: 1px;
     border-style: solid;
