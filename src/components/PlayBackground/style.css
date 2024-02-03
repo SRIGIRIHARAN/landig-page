@@ -12,7 +12,7 @@
     padding: 0rem 5rem !important;
 }
 .play-hero{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     background-image: url(../../assets/Background-2.png);
     background-position: center;
     background-size: 100% 100%;
